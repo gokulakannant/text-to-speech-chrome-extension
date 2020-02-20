@@ -1,0 +1,19 @@
+{
+  "name": "Text To Speech",
+  "version": "0.1.0",
+  "description": "A light weight Text to speech program that converts any written text into spoken words.",
+  "short_name": "tts",
+  "author": "Gokulakannan T",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "permissions": ["contextMenus"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": ["48.png"]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text To Speech</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>
+      <img src="64.png" alt="Toast" />
+      Text To Speech
+    </h1>
+    <h2>Configurations</h2>
+    <form>
+      <div>
+        <label for="rate">Rate</label
+        ><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+        <div class="rate-value">1</div>
+        <div class="clearfix"></div>
+      </div>
+      <div>
+        <label for="pitch">Pitch</label
+        ><input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+        <div class="pitch-value">1</div>
+        <div class="clearfix"></div>
+      </div>
+      <select> </select>
+      <div class="controls">
+        <button id="reset" type="reset">Reset to Default</button>
+      </div>
+    </form>
+  </body>
+  <script src="options.js"></script>
+</html>
